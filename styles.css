@@ -1,0 +1,292 @@
+:root{
+
+}
+body{
+  margin: 0;
+  
+}
+main{
+  box-sizing: border-box;
+  width: min(700px, calc(100%- 90px));
+  margin-left: 90px;
+  border: 1px solid blue;
+}
+.header-main {
+  text-align: right;
+}
+.header-main > a {
+  display: inline-block;
+  margin-top: 0;
+  /*font-style: italic;¨/
+    /*margin-left: 10;*/
+  margin-right: 10;
+  text-decoration: none;
+  color: black;
+}
+.landing-page {
+  text-align: center;
+}
+.auth-form {
+  display: grid;
+  gap: 10px;
+  max-width: 260px;
+  margin: 0 auto;
+}
+.auth-form label {
+  text-align: left;
+}
+.auth-form input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 4px;
+}
+.body-header {
+  box-sizing: border-box;
+  margin: 0 auto 2em;
+  width: calc(100% - 32px);
+  padding: 0 10px;
+  background-color: rgb(68, 124, 245);
+  /*0flex: 0px 0px 50px;*/
+  max-width: 700px;
+  border: 1px solid blue
+}
+.body-header-team {
+  text-align: left;
+  text-decoration: none;
+}
+.landing-page a {
+  text-decoration: none;
+  color: inherit;
+  cursor: inherit;
+}
+.landing-page a:hover {
+  text-decoration: none;
+  color: green;
+  /*cursor: inherit;*/
+}
+.landing-page a:active {
+  text-decoration: none;
+  color: greenyellow;
+  /*cursor: inherit;*/
+}
+.about-page a,
+.about-page a:visited,
+.about-page a:hover,
+.about-page a:active {
+  text-decoration: none;
+  cursor: inherit;
+}
+.best-use {
+  list-style-position: inside;
+}
+footer {
+  text-align: center;
+}
+
+/* Compact 2004-inspired home page */
+.home-page {
+  background: #fff;
+  color: #111;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+.site-frame {
+  box-sizing: border-box;
+  width: min(700px, calc(100% - 32px));
+  min-height: 500px;
+  margin: 0 auto 24px;
+  border: 1px solid #3b5998;
+}
+.site-header {
+  box-sizing: border-box;
+  min-height: 72px;
+  padding: 10px 14px 8px;
+  background: #3b5998;
+  color: #fff;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 12px;
+}
+.site-header h1 {
+  margin: 0;
+  color: #dce5f5;
+  font-size: 25px;
+  line-height: 1.15;
+}
+.site-header nav,
+.site-footer nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.site-header a {
+  color: #fff;
+  text-decoration: none;
+}
+.site-header a:hover,
+.site-footer a:hover {
+  text-decoration: underline;
+}
+.home-layout {
+  display: grid;
+  grid-template-columns: 150px minmax(0, 1fr);
+  gap: 4px;
+  padding: 2px 2px 0;
+}
+.home-sidebar {
+  padding: 18px 3px 0;
+}
+.sidebar-login {
+  box-sizing: border-box;
+  padding: 6px 5px 10px;
+  border: 1px dotted #7d98c6;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3px;
+}
+.sidebar-login label {
+  text-align: right;
+}
+.sidebar-login input {
+  box-sizing: border-box;
+  width: 100%;
+  height: 20px;
+  border: 1px solid #9aa6b8;
+  background: #e5e8ee;
+}
+.sidebar-actions,
+.home-actions {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  margin-top: 5px;
+}
+.legacy-button {
+  display: inline-block;
+  padding: 4px 10px;
+  border: 1px solid #29487d;
+  background: #5b7dbb;
+  color: #fff;
+  font: inherit;
+  line-height: 1.15;
+  text-decoration: none;
+}
+.legacy-button:hover {
+  background: #3b5998;
+}
+.home-panel {
+  box-sizing: border-box;
+  width: auto;
+  margin: 0;
+  min-width: 0;
+  min-height: 348px;
+  border: 1px solid #3b5998;
+}
+.home-page .body-header {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 4px 6px;
+  background: #3b5998;
+  color: #fff;
+  font-size: 12px;
+  font-weight: normal;
+}
+.home-page .landing-page {
+  padding: 0 14px 12px;
+  text-align: left;
+  line-height: 1.35;
+}
+.home-page .landing-page h3 {
+  margin: 18px 0 22px;
+  text-align: center;
+  font-size: 18px;
+}
+.home-page .landing-page p {
+  margin: 0 0 12px;
+}
+.home-page .landing-page .school-list {
+  margin-bottom: 14px;
+}
+.home-page .landing-page ul {
+  margin: -8px 0 14px;
+  padding-left: 20px;
+}
+.home-page .landing-page .legacy-button {
+  color: #fff;
+}
+.home-page .home-actions {
+  margin-top: 10px;
+}
+.site-footer {
+  padding: 14px 8px 22px;
+  color: #333;
+  text-align: center;
+  font-size: 11px;
+}
+.site-footer nav {
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 6px;
+}
+.site-footer a {
+  color: #456aa4;
+  text-decoration: none;
+}
+.site-footer p {
+  margin: 2px 0;
+}
+@media (max-width: 560px) {
+  .site-frame {
+    width: calc(100% - 16px);
+  }
+  .site-header {
+    min-height: 76px;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .site-header h1 {
+    font-size: 22px;
+  }
+  .home-layout {
+    grid-template-columns: 1fr;
+  }
+  .home-sidebar {
+    padding: 8px 4px 0;
+  }
+  .sidebar-login {
+    grid-template-columns: 64px minmax(0, 1fr);
+    align-items: center;
+  }
+  .sidebar-actions {
+    grid-column: 2;
+    justify-content: flex-start;
+  }
+}
+.about-sections {
+  display: grid;
+  gap: 12px;
+  padding: 12px;
+}
+.about-box {
+  min-width: 0;
+  border: 1px solid #3b5998;
+}
+.about-box-content {
+  padding: 8px 10px;
+  text-align: left;
+}
+.about-box-content p {
+  margin: 0 0 8px;
+}
+.about-box-content p:last-child {
+  margin-bottom: 0;
+}
+.about-h {
+  margin: 18px 0 10px;
+  text-align: center;
+  font-size: 18px;
+}
